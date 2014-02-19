@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IQBDA</title>
+    <link rel="stylesheet" type="text/css" href="base.css" media="screen" />
+ <style type="text/css">
+      ol, ul { 
+     list-style-type: none;
+      }
+   </style>  
+  </head>
+  <body>
+    <div id="masthead">
+      <header>
+       <IMG SRC="Skittles.gif" WIDTH=102 HEIGHT=60 alt="IQBDA logo">
+        <h1><b><i>IQBDA </i></b></h1>
+        
+        <h2><i>The International QBASIC Developers
+          Association</i></h2>
+       </header>   
+      </div>
+      
+      <div id="navbar">
+        <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="iqbdc.html">IQBDC</a>
+          </li>
+          <li>
+            <a href="member.html">Become a Member</a>
+          </li>
+        </ul>
+        </nav>
+      </div>
+      <hr>
+      <div id="content">
+      <header id="page-title"><h1>Join IQBDA Today!</h1></header> 
+       <form action="http://is-dsb.fairfield.edu/is135/iqbda-signup.php" method="post">
+       
+       <fieldset>
+       <legend>Information</legend>
+       <ul>
+        <li><label for="name-field">Name</label>
+        <input id="name-field" type="text" name="name"></li>
+        <li><label for="pass-field">Password</label>
+        <input id="pass-field" type="password" name="password"></li>
+        <li><label for="pass2-field">Password(again)</label>
+        <input id="pass2-field" type="password" name="password"></li>
+        <li><label for="email-field">Email</label>
+        <input id="email-field" type="email" name="email"></li>
+        <li><label for="photo-field">Photo</label>
+        <input id="photo-field" type="file" name="photo"></li>
+        <li><label for="address-field">Mailing Address</label><br>
+        <textarea id="address-field" name="address"></textarea></li>
+        </ul>
+        </fieldset>
+       <fieldset> 
+          <legend>Do you plan to attend IQBDC ‘98?</legend>
+          <ol>
+          <li><label><input type="radio" name="iqbdc98" value="Y">Y</label></li>
+          <li><label><input type="radio" name="iqbdc98" Value="N">N</label></li>
+          </ol>
+      </fieldset>
+      <fieldset>
+        <legend>How did you hear about us?</legend>
+         <select name="channel" size="4">
+          <option>Superbowl Ad</option>
+          <option>News Article</option>
+          <option>Email</option>
+          <option>Flyover at the beach</option>
+          </select>
+      </fieldset>
+      <p><input type="submit" value="submit"></p>
+      </form>
+      </div>
+  </body>
+</html>
