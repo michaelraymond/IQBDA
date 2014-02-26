@@ -1,0 +1,6 @@
+header#page-header {font-family: Georgia, Times, serif; font-style: italic;}
+#page-header h1 {font-size: 3em; font-style: bold;}
+#page-header h2 {font-size: 1.5em; font-style: 600;}
+#page-title h1 {font-family: Georgia, Times, serif; font-size: 1.8em;}
+div#content h2 {font-family: Georgia, Times, serif; font-style: 1.5em; font-weight: 600;}
+body {font-family: Verdana, Helvetica, Arial, sans serif; font-style: 1em; font-weight: normal;}
